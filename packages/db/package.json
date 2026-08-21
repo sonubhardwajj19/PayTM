@@ -1,0 +1,14 @@
+{
+  "name": "@repo/db",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@repo/typescript-config": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "prisma": "^7.9.1"
+  }
+}
